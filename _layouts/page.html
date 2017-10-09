@@ -1,0 +1,20 @@
+{% include header.html %}
+
+<div class="wrapper">
+  <div class="content">
+    <div class="container-fluid">
+      <div class="row">
+	  <div class="col-md-2 hidden-xs">
+          {% include sidebar.html %}
+        </div>
+        <div class="col-md-8">
+          <div class="well">
+            {{ content }}
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  {% include footer.html %}
+</div>
