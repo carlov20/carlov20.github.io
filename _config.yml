@@ -17,7 +17,8 @@ title: Carlo Veo
 description: >- # this means to ignore newlines until "baseurl:"
   This is a personal tech blog for Carlo Veo. My main interests are the Spring Framework specifically Spring Boot and Spring Cloud, Cloud Foundry, microservices architecture, Java
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://carlov20.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+host: "carlov20.github.io"
+port: "4000"
 twitter_username: carlov20
 github_username:  carlov20
 linkedin_username: carlo-veo-b31a6866
