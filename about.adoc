@@ -1,0 +1,29 @@
+= about
+:page-layout: page
+:page-liquid:
+
+
+
+I am a JVM web developer who enjoys working with containers.
+
+Currently working at Discover Financials as an Associate Developer.
+
+My main interests are:
+
+* https://www.java.com/en/[Java]
+* http://projects.spring.io/spring-cloud/[Spring cloud]
+* https://www.docker.com/[Docker]
+* https://facebook.github.io/react/[React]
+* http://redux.js.org/docs/introduction/[Redux]
+* https://www.cloudfoundry.org/[Cloud Foundry]
+
+I am currently focusing on expanding my knowledge of Platforms as a service and seeing how batch processing fits into being cloud native.
+
+My pipeline of learning includes:
+
+- http://kubernetes.io/[Kubernetes]
+- http://kafka.apache.org/[Apache Kafka]
+- https://www.elastic.co/products[the ELK stack]
+- https://projects.spring.io/spring-batch/[Spring Batch]
+
+In my spare time I enjoy watching films and TV Series, playing football, and cooking.

@@ -1,35 +1,16 @@
-<h6>Follow me</h6>
-
 <ul class="social-media">
 
-  {% if site.social.github %}
-    <li>
-      <a title="{{ site.social.github }} on Github" href="https://github.com/{{ site.social.github }}" target="_blank"><i class="fa fa-github fa-2x"></i></a>
-    </li>
-  {% endif %}
-  
-  {% if site.social.twitter %}
-    <li>
-      <a title="{{ site.social.twitter }} on Twitter" href="https://twitter.com/{{ site.social.twitter }}" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
-    </li>
-  {% endif %}
-
-  {% if site.social.linkedin %}
-    <li>
-      <a title="{{ site.social.github }} on LinkedIn" href="https://uk.linkedin.com/in/{{ site.social.linkedin }}" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a>
-    </li>
-  {% endif %}
-
-  {% if site.social.instagram %}
-    <li>
-      <a title="{{ site.social.instagram }} on Instagram" href="https://instagram.com/{{ site.social.instagram }}" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
-    </li>
-  {% endif %}
-
-  {% if site.social.rss %}
-    <li>
-      <a title="{{ site.social.rss }} RSS" href="{{ site.baseurl }}/{{ site.social.rss }}" target="_blank"><i class="fa fa-rss fa-2x"></i></a>
-    </li>
-  {% endif %}
-
+  	{%- if site.github_username -%}
+   		<li> <a href="https://github.com/{{ site.github_username| cgi_escape | escape }}" target="_blank"><i class="fab fa-github fa-2x"></i></a>  </li>
+	{%- endif -%}
+  	{%- if site.instagram_username -%}
+  		<li> <a href="https://instagram.com/{{ site.instagram_username| cgi_escape | escape }}" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>  </li>
+	{%- endif -%}
+  	{%- if site.linkedin_username -%}
+  		<li> <a href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>  </li>
+  	{%- endif -%}
+  	{%- if site.twitter_username -%}
+  		<li> <a href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>  </li>
+  	{%- endif -%}
+  		<li> <a href="{{ "/feed.xml" | relative_url }}" target="_blank"><i class="fas fa-rss fa-2x"></i></a>  </li>
 </ul>
