@@ -18,7 +18,6 @@ group :jekyll_plugins do
   gem "github-pages"
   gem "jekyll-feed", "~> 0.9.3"
   gem 'jekyll-asciidoc'
-  gem "jekyll-bootstrap-sass"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
