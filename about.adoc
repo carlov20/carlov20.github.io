@@ -1,6 +1,7 @@
 = about
 :page-layout: page
 :page-liquid:
+:page-permalink:/about
 
 
 

@@ -28,6 +28,8 @@ google_analytics: UA-78360858-1
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-asciidoc
+  - github-pages
 
 asciidoc: {}
 asciidoctor: {}
