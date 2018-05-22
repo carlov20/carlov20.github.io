@@ -7,4 +7,4 @@
 
 Hi, Welcome to this blog. I hope you can find something useful. This is my first ever blog post.
 I am going to try get a post out at least once a month. My main focus of this blog will be all things web
-and if you go to my link:/about[about page] you will see what I am currently learning and what my main interests are.
+and if you go to my link:{{ "/about" | relative_url }}[about page] you will see what I am currently learning and what my main interests are.
